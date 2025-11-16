@@ -2,16 +2,134 @@
 <html lang="ko">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>엘리의 첫 웹페이지</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+  <title>SHOPELLY – AI 글로벌 스토어 제작 & 해외 수출을 한 번에</title>
 </head>
-<body>
-  <h1>안녕, 나는 엘리! 🚀</h1>
-  <p>이건 내가 처음 만든 웹페이지야. 이제 진짜 “내 손으로” 업데이트 중!</p>
 
-  <a class="btn" href="https://elldinary.github.io/my-first-site/" target="_blank" rel="noopener">
-    공개 페이지 보기
-  </a>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="header-left">
+        <img src="sym.svg" alt="ELLY logo" class="logo-image">
+        <span class="type-logo">SHOPELLY</span>
+      </div>
+
+      <nav class="header-nav">
+        <a href="#">스토어 만들기</a>
+        <span class="nav-dot">·</span>
+        <a href="#">마케팅</a>
+        <span class="nav-dot">·</span>
+        <a href="#">분석 대시보드</a>
+        <span class="nav-dot">·</span>
+        <a href="#">요금제</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="btn btn-ghost">로그인</button>
+        <button class="btn btn-primary">무료로 시작하기</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <div class="main-card">
+      <!-- Left Panel -->
+      <div class="content-left">
+        <div class="user-stats">
+          <span class="user-count">20K+ OUR BRAND</span>
+        </div>
+        <p class="success-link"><u>성공 사례</u> 보기</p>
+
+        <h1 class="main-title">Global Shop AI Builder</h1>
+        
+        <p class="main-description">
+          AI로 빠르고 쉽게 글로벌 스토어를 만들고, 마케팅과 분석까지 한 번에.<br>
+          국내 브랜드의 해외 수출을 더욱 쉽고 편리하게.
+        </p>
+
+        <div class="testimonial-badge">
+          <div class="profile-img"></div>
+          <div class="testimonial-text">
+            <p class="testimonial-title">해외 수출이 이렇게 쉬울 줄 몰랐어요</p>
+            <div class="rating">
+              <span class="rating-text">100% 만족</span>
+              <span class="star-rating">
+                <span class="star">★</span>
+                <span class="rating-value">4.9</span>
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="action-buttons">
+          <button class="btn btn-primary large">무료로 시작하기</button>
+          <a href="#" class="pricing-link">
+            요금제 보기
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+              <path d="M6 4L10 8L6 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Right Panel -->
+      <div class="content-right">
+        <div class="hero-image-container">
+          <img src="hero.png" alt="Hero image" class="hero-image">
+          
+          <!-- Glassmorphism Speech Bubbles -->
+          <div class="speech-bubble top">
+            <div class="checkmark orange">✓</div>
+            <span>스토어 완성까지 얼마나 걸리나요?</span>
+          </div>
+          <div class="speech-bubble bottom">
+            <div class="checkmark blue">✓</div>
+            <span>해외 배송은 어떻게 하나요?</span>
+          </div>
+
+          <!-- Play Button -->
+          <div class="play-button">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="white">
+              <path d="M8 5v14l11-7z"/>
+            </svg>
+          </div>
+
+          <!-- Glassmorphism Cards -->
+          <div class="stats-card sales">
+            <p class="stats-text">이번 주 <span class="stats-number">3배</span> 매출 증가</p>
+          </div>
+          
+          <div class="product-card">
+            <img src="https://images.unsplash.com/photo-1586495777744-4413f21062fa?w=200&q=80" alt="Lipstick" class="product-img">
+            <div class="product-info">
+              <p class="product-name">K-Beauty 립스틱</p>
+              <p class="product-price">$29.99</p>
+              <div class="product-rating">
+                <span class="star">★</span>
+                <span>4.8</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Partners Section -->
+  <footer class="partners-section">
+    <div class="partners-inner">
+      <span class="partner-logo">Rakuten</span>
+      <span class="partner-logo">NCR</span>
+      <span class="partner-logo">.monday.com</span>
+      <span class="partner-logo">Disney</span>
+      <span class="partner-logo">Dropbox</span>
+    </div>
+  </footer>
 </body>
 </html>
